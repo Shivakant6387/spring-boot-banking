@@ -19,7 +19,7 @@ import javax.persistence.Table;
 public class PrimaryAccount {
     @Id
     @Column(name = "account_id")
-    private String accountId;
+    private String accountID;
     @Column(name = "account_number")
     private int accountNumber;
     @Column(name = "account_balance")
